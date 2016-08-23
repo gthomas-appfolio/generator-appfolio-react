@@ -1,0 +1,47 @@
+{
+  "name": "generator-appfolio-react",
+  "version": "0.1.0",
+  "description": "Yeoman generator for Appfolio JS apps",
+  "keywords": [
+    "yeoman-generator",
+    "appfolio"
+  ],
+  "homepage": "https://github.com/gthomas-appfolio/generator-appfolio-react",
+  "bugs": "https://github.com/gthomas-appfolio/generator-appfolio-react/issues",
+  "author": "Appfolio, Inc.",
+  "contributors": [
+    {
+      "name": "Simon Bailey",
+      "url": "https://github.com/newtriks"
+    }
+  ],
+  "main": "generators/app/index.js",
+  "files": [
+    "generators/app",
+    "utils"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gthomas-appfolio/generator-appfolio-react.git"
+  },
+  "scripts": {
+    "release:major": "npm version prerelease && git push --follow-tags && npm publish --tag beta",
+    "release:minor": "npm version prerelease && git push --follow-tags && npm publish --tag beta",
+    "release:patch": "npm version prerelease && git push --follow-tags && npm publish --tag beta"
+  },
+  "dependencies": {
+    "appfolio-react-template": "github:gthomas-appfolio/appfolio-react-template",
+    "escodegen": "^1.7.0",
+    "esprima": "^2.7.0",
+    "esprima-walk": "^0.1.0",
+    "lodash": "^4.13.1",
+    "underscore.string": "^3.2.2",
+    "yeoman-generator": "^0.23.0",
+    "yeoman-welcome": "^1.0.1"
+  },
+  "engines": {
+    "node": ">=4.0.0",
+    "iojs": ">=1.1.0"
+  },
+  "license": "MIT"
+}
