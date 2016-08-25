@@ -12,7 +12,7 @@ This template can be used directly for the creation of new JavaScript apps in AP
 - CSS with modules and autoprefixing using [PostCSS](http://postcss.org/) 
 - SCSS using [sass-loader](https://github.com/jtangelder/sass-loader) 
 - Development server and reloading using [webpack-dev-middleware](https://github.com/webpack/webpack-dev-middleware) and [webpack-hot-middleware](https://github.com/glenjamin/webpack-hot-middleware)
-- Unit tests using [Mocha](https://mochajs.org/) and [assert](https://nodejs.org/api/assert.html)
+- Unit tests using [Mocha](https://mochajs.org/), [enzyme](http://airbnb.io/enzyme/index.html), and [assert](https://nodejs.org/api/assert.html)
 - Headless browser tests using [Mocha](https://mochajs.org/) and [Nightmare](http://www.nightmarejs.org/)
 - Linting using [ESLint](http://eslint.org/)
 - Code coverage using [nyc](https://github.com/istanbuljs/nyc)
