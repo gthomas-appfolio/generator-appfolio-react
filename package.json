@@ -30,7 +30,7 @@
     "release:patch": "npm version prerelease && git push --follow-tags && npm publish --tag beta"
   },
   "dependencies": {
-    "appfolio-react-template": "github:gthomas-appfolio/appfolio-react-template",
+    "appfolio-react-template": "github:appfolio/appfolio-react-template",
     "escodegen": "^1.7.0",
     "esprima": "^2.7.0",
     "esprima-walk": "^0.1.0",
